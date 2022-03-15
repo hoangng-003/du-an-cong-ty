@@ -52,7 +52,7 @@ export default function Register() {
                 placeholder="Full Name"
                 {...getFieldProps('fullName')}
                 error={touched.fullName && errors.fullName}
-                // helperText={touched.fullName && errors.fullName}
+                helperText={touched.fullName && errors.fullName}
               />
             </FormGroupStyle>
             <FormGroupStyle gutterBottom>
@@ -64,7 +64,7 @@ export default function Register() {
                 placeholder="Enter email"
                 {...getFieldProps('email')}
                 error={touched.email && errors.email}
-                // helperText={touched.email && errors.email}
+                helperText={touched.email && errors.email}
               />
             </FormGroupStyle>
             <FormGroupStyle gutterBottom>
