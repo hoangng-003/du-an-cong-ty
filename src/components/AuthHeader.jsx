@@ -15,8 +15,12 @@ const ButtonStyle = styled(MButton)(({ theme }) => ({
   fontSize: 18,
   fontWeight: 600,
   margin: theme.spacing(0, 1.3),
-  padding: theme.spacing(2, 3),
+  padding: theme.spacing(1.5, 3),
   border: `2px solid ${theme.palette.primary.main}`,
+
+  fontFamily: 'Poppins',
+  lineHeight: theme.spacing(3.375),
+  letterSpacing: 0.64,
 }))
 
 export default function AuthHeader() {

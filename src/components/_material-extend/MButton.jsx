@@ -9,8 +9,8 @@ const ButtonStyle = styled(Button)(({ theme, styleProps }) => {
   const { color, variant } = styleProps
 
   const styleContained = color => ({
-    padding: theme.spacing(2, 2.175),
     color: theme.palette[color].contrastText,
+
     backgroundColor: theme.palette.primary.main,
     '&:hover': {
       backgroundColor: theme.palette[color].dark,
@@ -29,7 +29,6 @@ const ButtonStyle = styled(Button)(({ theme, styleProps }) => {
   const styleText = color => ({
     color: theme.palette[color].main,
     borderRadius: theme.spacing(1.5),
-    fontFamily: 'Poppins',
 
     '&:hover': {
       backgroundColor: alpha(theme.palette[color].main, theme.palette.action.hoverOpacity),

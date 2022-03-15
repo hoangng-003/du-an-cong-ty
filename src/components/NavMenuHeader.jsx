@@ -26,7 +26,7 @@ const LINKS = [
 ]
 
 const NavLink = styled(Link)(({ theme }) => ({
-  color: '#5F5F5F',
+  color: '#222222',
   fontSize: 18,
   fontWeight: 600,
   textDecoration: 'none',

@@ -19,10 +19,11 @@ const RootStyle = styled(Grid)(({ theme }) => ({
 }))
 
 const LogoLink = styled(RouterLink)(({ theme }) => ({
-  fontSize: 30,
-  fontWeight: 700,
+  fontSize: 39,
+  fontWeight: 600,
   textDecoration: 'none',
   color: theme.palette.primary.main,
+  letterSpacing : 0.64,
 }))
 
 const ColorStyle = styled('span')(() => ({
