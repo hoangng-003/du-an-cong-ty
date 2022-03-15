@@ -1,0 +1,10 @@
+export { default as RootAuth } from './Root'
+export { default as FormAuth } from './Form'
+export { default as BannerAuth } from './Banner'
+export { default as InputField } from './InputField'
+
+export { default as LoginForm } from './FormDetail/Login'
+export { default as RegisterForm } from './FormDetail/Register'
+export { default as ForgotPasswordForm } from './FormDetail/ForgotPassword'
+export { default as VerifyCodeForm } from './FormDetail/VerifyCode'
+export { default as ResetPasswordForm } from './FormDetail/ResetPassword'

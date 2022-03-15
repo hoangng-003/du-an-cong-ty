@@ -1,0 +1,52 @@
+{
+  "env": {
+    "browser": true,
+    "es2021": true
+  },
+  "extends": ["plugin:react/recommended", "airbnb", "plugin:prettier/recommended"],
+  "parserOptions": {
+    "ecmaFeatures": {
+      "jsx": true
+    },
+    "ecmaVersion": 12,
+    "sourceType": "module"
+  },
+  "plugins": ["react"],
+  "rules": {
+    "react/jsx-first-prop-new-line": [1, "multiline"],
+    "react/jsx-max-props-per-line": [1, { "maximum": 1, "when": "multiline" }],
+    "prettier/prettier": [
+      "warn",
+      {
+        "trailingComma": "es5",
+        "semi": false,
+        "endOfLine": "auto",
+        "printWidth": 120,
+        "useTabs": false
+      }
+    ],
+    "no-console": ["off"],
+    "no-tabs": ["error", { "allowIndentationTabs": true }],
+    "no-param-reassign": [2, { "props": false }],
+    "no-underscore-dangle": "off",
+    "no-unused-expressions": [2, { "allowShortCircuit": true, "allowTernary": true }],
+    "no-return-assign": "off",
+    "no-nested-ternary": "off",
+    "no-shadow": ["off"],
+    "no-unused-vars": ["warn", { "vars": "all", "args": "after-used", "ignoreRestSiblings": false }],
+    "react/prop-types": "off",
+    "react/react-in-jsx-scope": "off",
+    "react/jsx-filename-extension": [
+      1,
+      {
+        "extensions": [".js", ".jsx"]
+      }
+    ],
+
+    "react/jsx-props-no-spreading": "off",
+    "import/extensions": 0,
+    "import/no-unresolved": "off",
+    "import/prefer-default-export": "off",
+    "consistent-return": "off"
+  }
+}
